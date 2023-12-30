@@ -47,7 +47,12 @@
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center w3-text-black">ABOUT ME</h3>
   <p class="w3-center">FRONTEND / FULLSTACK DEVELOPER</p>
-  <p>I bring a wealth of knowledge, professionalism and capabilities to all clients and organisations I work with, and recently changed from my successful HR & Talent career to build a new expertise in Frontend Development using a Full Stack toolset.</p>
+  <p>As an aspiring Frontend Developer, I leverage a diverse background as a professional in industries such as Banking, Retail and Software Development where precision, problem-solving, and creativity were at the core of my responsibilities.</p> 
+  <p>My experience has equipped me with a strong foundation in understanding user needs, deciphering complex requirements, and fostering seamless interactions. </p>
+  <p>In my previous roles, including as a Global Talent Acquisition Leader, I honed a meticulous approach to strategic development which required an excellent understanding of data analytics and solution design. </p>
+  <p>This analytical prowess, coupled with a deep understanding of client and stakeholder engagement, forms a solid bridge to the meticulous work of Frontend development and being able to thrive under evolving circumstances.</p>  
+  <p>My transition to a new career is fueled by an insatiable curiosity and passion for crafting digital experiences that captivate and delight users. This newfound pursuit stems from an innate desire to translate ideas into tangible, aesthetically pleasing, and functional interfaces.</p>
+  <p>With a relentless drive to master HTML, CSS, and JavaScript while exploring frameworks like React and Angular, I am actively broadening my technical acumen. This journey embodies my unwavering commitment to excellence, bridging the gap between my existing skills and the captivating realm of Frontend development.</p>
     <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
       <!-- <p><b><i class="fa fa-user w3-margin-right"></i>My Name</b></p><br> -->
@@ -115,20 +120,21 @@
         <!-- Images for portfolio work are written in the javascript file - Nothing needs to be written in the HTML but this div needs to be kept for the landing location of the javascript code. -->
     </div>
   
+    <!-- "SHOW MORE" button, controlled by Javascript in script.js file under 'function updateLoadButton' -->
     <div class="button-container">
-        <button id="loadMoreBtn" class="w3-button w3-padding-large w3-light-grey">LOAD MORE</button>
+        <button id="loadMoreBtn" class="w3-button w3-padding-large w3-light-grey"></button>
       </div>
   </div>
   
 
-<!-- Modal for full size images on click-->
+<!-- Modal for full size images on click
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
   <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
   <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
     <img id="img01" class="w3-image">
     <p id="caption" class="w3-opacity w3-large"></p>
   </div>
-</div>
+</div> -->
 
 <!-- Third Parallax Image with Portfolio Text
 <div class="bgimg-3 w3-display-container w3-opacity-min">
@@ -147,18 +153,19 @@
         <!-- Image for contact section map  -->
       <img src="./assets/images/WestMidlandsMap.png" class="w3-image w3-round" style="width:100%">
     </div>
+    <!-- This section is the writing content - The individual segments are aligned to 'w3-right' to move from automatically centering -->
     <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
+      <div class="w3-large w3-margin-bottom w3-right">
         <i class="fa fa-map-marker fa-fw w3-text-black w3-large w3-margin-right"></i> West Midlands, UK<br>
         <i class="fa fa-phone fa-fw w3-text-black w3-large w3-margin-right"></i> Phone: +44 7851 505 604<br>
         <i class="fa fa-envelope fa-fw w3-text-black w3-large w3-margin-right"></i> Email: maguadutka@hotmail.com<br>
       </div>
-      <p>Get in touch for a cup of <i class="fa fa-coffee"></i>, or to collaborate:</p>
-      <ul>
+      <p class="w3-right">Get in touch for a cup of <i class="fa fa-coffee"></i>, or to collaborate:</p>
+      <ul class="w3-right">
         <li>New website design and build</li>
         <li>Existing website re-design</li>
         <li>Frontend application design and build</li>
-        <li>Permanent or temporary employment</li>
+        <li>Permanent or temporary employment options</li>
       </ul>
       
       <!-- Form for sending message / email directly. This needs a server-side client to handle requests and data. forspree.io is a good option, cheap monthly plans. -->

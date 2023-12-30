@@ -117,9 +117,9 @@ document.addEventListener('DOMContentLoaded', function () {
   
     function updateLoadButton(numImages) {
       if (showingOriginalImages) {
-        loadMoreBtn.innerText = 'LOAD MORE';
+        loadMoreBtn.innerText = 'SHOW MORE';
       } else {
-        loadMoreBtn.innerText = 'LOAD LESS';
+        loadMoreBtn.innerText = 'SHOW LESS';
       }
     }
   
