@@ -75,14 +75,14 @@ document.addEventListener('DOMContentLoaded', function () {
     // Text in these images will directly go onto the website into the Portfolio section above the images
     // url is being used by the 'function loadImages' code below using the textAboveImage.textContent method, and appending it as a <div> & <p> in the HTML code.
     const imageData = [
-      { url: './assets/images/Add Employee.jpg', text: 'HTML'},
-      { url: './assets/images/Add Employee.jpg', text: 'CSS'},
-      { url: './assets/images/Add Employee.jpg', text: 'JavaScript'},
-      { url: './assets/images/Add Employee.jpg', text: 'Stuff'},
-      { url: './assets/images/Add Employee.jpg', text: 'HTML'},
-      { url: './assets/images/Add Employee.jpg', text: 'HTML'},
-      { url: './assets/images/Add Employee.jpg', text: 'HTML'},
-      { url: './assets/images/Add Employee.jpg', text: 'HTML'},
+      { url: './assets/images/Add Employee.jpg', text: 'Client Website - Fun Foundations'},
+      { url: './assets/images/Add Employee.jpg', text: 'Client Website - Sylvie Sew Art '},
+      { url: './assets/images/Add Employee.jpg', text: 'Mini Project - Weather Forecast App'},
+      { url: './assets/images/Add Employee.jpg', text: 'Mini Project - Timed Online Quiz'},
+      { url: './assets/images/Add Employee.jpg', text: 'Mini Project - README Generator'},
+      { url: './assets/images/Add Employee.jpg', text: 'Mini Project - Content Management System'},
+      { url: './assets/images/Add Employee.jpg', text: 'Mini Project - Work Scheduler'},
+      { url: './assets/images/Add Employee.jpg', text: 'Personal Website - Talent Times'},
       
       // Add more image URLs here as needed
     ];
