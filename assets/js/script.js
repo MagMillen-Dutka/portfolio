@@ -75,8 +75,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // Text in these images will directly go onto the website into the Portfolio section above the images
     // url is being used by the 'function loadImages' code below using the textAboveImage.textContent method, and appending it as a <div> & <p> in the HTML code.
     const imageData = [
-      { url: './assets/images/Add Employee.jpg', text: 'Client Website - Fun Foundations'},
-      { url: './assets/images/Add Employee.jpg', text: 'Client Website - Sylvie Sew Art '},
+      { url: './assets/images/FunFoundations.jpg', text: 'Client Website - Fun Foundations', link: 'https://magmillen-dutka.github.io/Fun-Foundations/'},
+      { url: './assets/images/SylvieSewArt.jpg', text: 'Client Website - Sylvie Sew Art', link:'https://sylvie-sew.co.uk/'},
       { url: './assets/images/Add Employee.jpg', text: 'Mini Project - Weather Forecast App'},
       { url: './assets/images/Add Employee.jpg', text: 'Mini Project - Timed Online Quiz'},
       { url: './assets/images/Add Employee.jpg', text: 'Mini Project - README Generator'},
@@ -94,20 +94,25 @@ document.addEventListener('DOMContentLoaded', function () {
           const imageDiv = document.createElement('div');
           imageDiv.classList.add('w3-col', 'm3');
       
+          const imageLink = document.createElement('a');
+          imageLink.href = imageData[i].link; // Set the link for this specific image
+          imageLink.target = '_blank'; // Opens the link in a new tab
+
           const image = document.createElement('img');
           image.src = imageData[i].url; // Accessing URL from the imageData object
           image.style.width = '100%';
           image.classList.add('w3-hover-opacity');
           image.alt = imageData[i].text; // Accessing text from the imageData object
           image.onclick = function () {
-            onClick(this);
-          };
-      
+           window.open(imageLink.href, '_blank'); // Open the link when image is clicked
+    };
+          imageLink.appendChild(image);
+
           const textAboveImage = document.createElement('p');
           textAboveImage.textContent = imageData[i].text; // Using text from imageData above
       
           imageDiv.appendChild(textAboveImage);
-          imageDiv.appendChild(image);
+          imageDiv.appendChild(imageLink);
           imageSection.appendChild(imageDiv);
         }
       
