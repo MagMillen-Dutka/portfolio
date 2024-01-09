@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Text in these images will directly go onto the website into the Portfolio section above the images
     // url is being used by the 'function loadImages' code below using the textAboveImage.textContent method, and appending it as a <div> & <p> in the HTML code.
     const imageData = [
-      { url: './assets/images/FunFoundations.jpg', text: 'Client Website - Fun Foundations', link: 'https://github.com/MagMillen-Dutka/Fun-Foundations'},
+      { url: './assets/images/FunFoundations.jpg', text: 'Client Website - Fun Foundations', link: 'https://magmillen-dutka.github.io/Fun-Foundations/'},
       { url: './assets/images/SylvieSewArt.jpg', text: 'Client Website - Sylvie Sew Art', link:'https://sylvie-sew.co.uk/'},
       { url: './assets/images/Add Employee.jpg', text: 'Mini Project - Weather Forecast App'},
       { url: './assets/images/Add Employee.jpg', text: 'Mini Project - Timed Online Quiz'},
