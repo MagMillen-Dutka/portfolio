@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function () {
       { url: './assets/images/FunFoundations.jpg', text: 'Client Website - Fun Foundations', link: 'https://magmillen-dutka.github.io/Fun-Foundations/'},
       { url: './assets/images/SylvieSewArt.jpg', text: 'Client Website - Sylvie Sew Art', link:'https://sylvie-sew.co.uk/'},
       { url: './assets/images/GPAE.jpg', text: 'Client Website - Gareth Parry Auto Electrics', link:'https://magmillen-dutka.github.io/G-P-A-E/'},
-      { url: './assets/images/weather.jpg', text: 'Mini Project - Weather Forecast App', link: 'https://magmillen-dutka.github.io/weather-forecast-app/'},
+      { url: './assets/images/Weather.jpg', text: 'Mini Project - Weather Forecast App', link: 'https://magmillen-dutka.github.io/weather-forecast-app/'},
       { url: './assets/images/quiz.jpg', text: 'Mini Project - Timed Online Quiz', link:'https://magmillen-dutka.github.io/Timed-Online-Quiz/'},
       { url: './assets/images/readme.jpg', text: 'Mini Project - README Generator', link:'https://github.com/MagMillen-Dutka/README-Generator'},
       { url: './assets/images/contentmanagementsystem.jpg', text: 'Mini Project - Content Management System', link:'https://github.com/MagMillen-Dutka/content-management-system'},
