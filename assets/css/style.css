@@ -26,19 +26,19 @@ body {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('\assets\images\websiteImage-coding.jpg');
+  background-image: url('./assets/images/websiteImage-coding.jpg');
   min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("/assets/images/websiteImage.webp");
+  background-image: url("./assets/images/websiteImage.webp");
   min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("/assets/images/websiteImage-HTMLcoding.jpg");
+  background-image: url("./assets/images/websiteImage-HTMLcoding.jpg");
   min-height: 400px;
 }
 
