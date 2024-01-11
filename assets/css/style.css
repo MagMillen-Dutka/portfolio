@@ -60,3 +60,18 @@ body {
     min-height: 400px;
   }
 }
+/* Update this in your style.css file */
+.portfolio-item {
+  padding-bottom: 10px; /* Adjust the margin value as needed */
+  height: 225px; /* Set a fixed height for all image cards */
+  overflow: hidden; /* Ensure images don't overflow if they are larger than the fixed height */
+}
+
+.portfolio-item img {
+  height: 100%; /* Make the image fill the entire height of its container */
+  width: 100%;
+  object-fit: contain; /* Ensure the image contains the entire container, maintaining aspect ratio */
+}
+.text-above-image {
+  margin-bottom: -50px; /*reduced negative height to ensure the images in the portfolio and the text above the image created by the javascript are not too far apart.
+}

@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function () {
       
         for (let i = 0; i < numImages && i < imageData.length; i++) {
           const imageDiv = document.createElement('div');
-          imageDiv.classList.add('w3-col', 'm3');
+          imageDiv.classList.add('w3-col', 'm3', 'portfolio-item');
       
           const imageLink = document.createElement('a');
           imageLink.href = imageData[i].link; // Set the link for this specific image
@@ -111,6 +111,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
           const textAboveImage = document.createElement('p');
           textAboveImage.textContent = imageData[i].text; // Using text from imageData above
+          textAboveImage.classList.add('text-above-image');
       
           imageDiv.appendChild(textAboveImage);
           imageDiv.appendChild(imageLink);
