@@ -77,6 +77,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const imageData = [
       { url: './assets/images/FunFoundations.jpg', text: 'Client Website - Fun Foundations', link: 'https://magmillen-dutka.github.io/Fun-Foundations/'},
       { url: './assets/images/SylvieSewArt.jpg', text: 'Client Website - Sylvie Sew Art', link:'https://sylvie-sew.co.uk/'},
+      { url: './assets/images/GPAE.jpg', text: 'Client Website - Gareth Parry Auto Electrics', link:'https://magmillen-dutka.github.io/G-P-A-E/'},
       { url: './assets/images/Add Employee.jpg', text: 'Mini Project - Weather Forecast App'},
       { url: './assets/images/Add Employee.jpg', text: 'Mini Project - Timed Online Quiz'},
       { url: './assets/images/Add Employee.jpg', text: 'Mini Project - README Generator'},
