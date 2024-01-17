@@ -76,14 +76,15 @@ document.addEventListener('DOMContentLoaded', function () {
     // url is being used by the 'function loadImages' code below using the textAboveImage.textContent method, and appending it as a <div> & <p> in the HTML code.
     const imageData = [
       { url: './assets/images/FunFoundations.jpg', text: 'Client Website - Fun Foundations', link: 'https://magmillen-dutka.github.io/Fun-Foundations/'},
-      { url: './assets/images/SylvieSewArt.jpg', text: 'Client Website - Sylvie Sew Art', link:'https://sylvie-sew.co.uk/'},
+      { url: './assets/images/clownWebsite.jpg', text: 'Group Project - Clowning About Inc', link:'https://github.com/simonmoore23/clowning-around-entertainment-job-board'},
+      // { url: './assets/images/SylvieSewArt.jpg', text: 'Client Website - Sylvie Sew Art', link:'https://sylvie-sew.co.uk/'},
       { url: './assets/images/GPAE.jpg', text: 'Client Website - Gareth Parry Auto Electrics', link:'https://magmillen-dutka.github.io/G-P-A-E/'},
       { url: './assets/images/Weather.jpg', text: 'Mini Project - Weather Forecast App', link: 'https://magmillen-dutka.github.io/weather-forecast-app/'},
       { url: './assets/images/quiz.jpg', text: 'Mini Project - Timed Online Quiz', link:'https://magmillen-dutka.github.io/Timed-Online-Quiz/'},
       { url: './assets/images/readme.jpg', text: 'Mini Project - README Generator', link:'https://github.com/MagMillen-Dutka/README-Generator'},
       { url: './assets/images/contentmanagementsystem.jpg', text: 'Mini Project - Content Management System', link:'https://github.com/MagMillen-Dutka/content-management-system'},
       { url: './assets/images/scheduler.jpg', text: 'Mini Project - Work Scheduler', link:'https://magmillen-dutka.github.io/Work-Scheduler/'},
-      { url: './assets/images/Add Employee.jpg', text: 'Personal Website - Talent Times'},
+      
       
       // Add more image URLs here as needed
     ];
