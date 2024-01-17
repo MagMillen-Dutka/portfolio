@@ -32,14 +32,14 @@ body {
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("../images/websiteImage.webp");
+  background-image: url("../images/blueImage.webp");
   /* min-height: 200px;
   max-height: 400px; */
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("../images/websiteImage-HTMLcoding.jpg");
+  background-image: url("../images/websiteImage.webp");
   /* min-height: 100px;
   max-height: 250px; */
 }
@@ -62,7 +62,7 @@ body {
     min-height: 400px;
   }
 }
-/* Update this in your style.css file */
+
 .portfolio-item {
   padding-bottom: 10px; /* Adjust the margin value as needed */
   height: 225px; /* Set a fixed height for all image cards */
