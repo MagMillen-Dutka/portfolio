@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
-import Product from '../../assets/product-manager-1.png';
-import Project from '../../assets/project-manager-1.png';
+import Design from '../../assets/product-manager-1.png';
+import Develop from '../../assets/project-manager-1.png';
 import Frontend from '../../assets/fe-dev-1.png';
 
 
@@ -9,20 +9,20 @@ const About = () => {
     return (
         <section id='about'>
             <span className='skillTitle'>About</span>
-            <span className='skillDescription'>I have over 10 years of experience managing cross-functional teams to deliver high-quality multimedia content tailored for diverse audiences. I have extensive experience working closely with clients on a strategic and creative level, solving problems proactively, and consistently exceeding expectations. I am knowledgeable about marketing, business strategy, communication, and financial management – as demonstrated throughout my career.</span>
+            <span className='skillDescription'>I'm a professional Web Development specialist with experience designing, developing and implementing high-end websites for small businesses. All of my websites are designed to be responsive, so you can use them on any device including mobiles and tablets.</span>
             <div className="skillBars">
                 <div className="skillBar">
-                    <img src={Product} alt="Product" className="skillBarImg" />
+                    <img src={Design} alt="Design" className="skillBarImg" />
                     <div className="skillBarText">
-                        <h2>Product Management</h2>
-                        <p>This is a demo text</p>
+                        <h2>Designing</h2>
+                        <p>Coming up with great ideas to make your website unique.</p>
                     </div>
                 </div>
                 <div className="skillBar">
-                    <img src={Project} alt="Project" className="skillBarImg" />
+                    <img src={Develop} alt="Develop" className="skillBarImg" />
                     <div className="skillBarText">
-                        <h2>Project Management</h2>
-                        <p>This is a demo text</p>
+                        <h2>Developing</h2>
+                        <p>Websites are made from the latest technologies to be compatible.</p>
                     </div>
                 </div>
                 <div className="skillBar">

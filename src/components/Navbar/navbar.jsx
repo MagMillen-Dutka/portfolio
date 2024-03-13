@@ -1,9 +1,9 @@
 import React, {useState} from "react";
 import './navbar.css';
-import logo from '../../assets/Logo_SM_2.png';
+// import logo from '../../assets/A.png';
 import contactImg from '../../assets/gmail.png';
 import Menu from '../../assets/menu.png'
-import Resume from '../../assets/resume.pdf';
+import Resume from '../../assets/Resume.pdf';
 import {Link} from 'react-scroll';
 
 const Navbar = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
     };
     return (
     <nav className="navbar">
-        <img src={logo} alt="logo" className="logo"/>
+        {/* <img src={logo} alt="logo" className="logo"/> */}
         <div className="menu">
            <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-185} duration={500} className='menuList'>Home</Link>
            <Link activeClass='active' to='about' spy={true} smooth={true} offset={-150} duration={500} className='menuList'>About</Link>
