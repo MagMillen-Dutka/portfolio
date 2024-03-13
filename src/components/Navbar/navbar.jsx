@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import './navbar.css';
-// import logo from '../../assets/A.png';
+// import logo from '../../assets/A (3).png';
 import contactImg from '../../assets/gmail.png';
 import Menu from '../../assets/menu.png'
 import Resume from '../../assets/Resume.pdf';
