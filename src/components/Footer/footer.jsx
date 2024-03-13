@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-import LinkedIn from '../../assets/Linkedin-logo-1.png';
+import LinkedIn from '../../assets/linkedin-logo-1.png';
 import GitHub from '../../assets/github-logo-1.png';
 
 const Footer = () => {
