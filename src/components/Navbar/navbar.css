@@ -1,0 +1,98 @@
+.navbar {
+    background: rgb(30, 30, 30);
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding : 5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.logo {
+    object-fit: cover;
+    height: 3rem;
+    width: 8rem;
+}
+
+.menuList {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.menuList:hover {
+    color: #F3C9BA;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #F3C9BA;
+}
+
+.contactBtn {
+    background: lightgrey;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.contactImg {
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem;
+}
+
+.active {
+    color: #F3C9BA;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #F3C9BA;
+}
+
+.mobMenu {
+    display: none;
+    object-fit: cover;
+    height: 2rem;
+    width: rem;
+    margin: 1rem;
+}
+
+.navMenu {
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 5rem;
+    /* background: rgb(40, 40, 40); */
+    border-radius: 1rem;
+}
+
+.listItem {
+    color: lightgrey;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background: rgd(30, 30, 30);
+    border-radius: ;
+}
+
+@media screen and (max-width:700px) {
+    .mobMenu {
+        display: flex;
+    }
+    .menu {
+        display: none;
+    }
+    .contactBtn {
+        display: none;
+    }
+}
