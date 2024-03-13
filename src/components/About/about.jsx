@@ -15,21 +15,21 @@ const About = () => {
                     <img src={Design} alt="Design" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>Designing</h2>
-                        <p>Coming up with great ideas to make your website unique.</p>
+                        <p>Generating great ideas to make your website unique.</p>
                     </div>
                 </div>
                 <div className="skillBar">
                     <img src={Develop} alt="Develop" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>Developing</h2>
-                        <p>Websites are made from the latest technologies to be compatible.</p>
+                        <p>Websites are made from the latest technologies to make your website responsive on any device including mobile and tablets.</p>
                     </div>
                 </div>
                 <div className="skillBar">
                     <img src={Frontend} alt="Frontend" className="skillBarImg" />
                     <div className="skillBarText">
-                        <h2>Frontend Development</h2>
-                        <p>HTML, CSS, JavaScript, React - examples are included below in my portfolio.</p>
+                        <h2>Technologies</h2>
+                        <p>I use the latest versions of HTML, CSS, JavaScript and React - examples are included below in my portfolio.</p>
                     </div>
                 </div>
             </div>
