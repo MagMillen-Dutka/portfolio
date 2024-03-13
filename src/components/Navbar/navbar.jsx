@@ -6,6 +6,7 @@ import Menu from '../../assets/menu.png'
 import Resume from '../../assets/Resume.pdf';
 import {Link} from 'react-scroll';
 
+
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
 
