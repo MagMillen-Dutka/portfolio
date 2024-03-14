@@ -14,6 +14,7 @@ It also helps to demonstrate HTML, CSS styling and JavaScript knowledge can be u
 - [Acceptance Criteria](#acceptance-criteria)
 - [Links](#links)
 - [Technology](#technology)
+- [Screenshot](#screenshot)
 
 ## Licence
 
@@ -59,11 +60,16 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Links
 
-[Netlify](https://portfolio-zcjg.onrender.com)
-[Github](https://github.com/MagMillen-Dutka/portfolio)
+* [Deployed site on Netlify](https://main--ephemeral-kulfi-a812f2.netlify.app/)
+* [Github Repository](https://github.com/MagMillen-Dutka/portfolio)
 
 ## Technology
 
-[@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-[@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-[@emailjs/browser](https://www.emailjs.com/docs/examples/reactjs/)
+* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
+* [Babel](https://babeljs.io/) for Fast Refresh
+* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc)
+* [SWC](https://swc.rs/) for Fast Refresh
+* [@emailjs/browser](https://www.emailjs.com/docs/examples/reactjs/)
+
+## Screenshot
+![Deployed Website](./src/assets/screenshot.jpg)
